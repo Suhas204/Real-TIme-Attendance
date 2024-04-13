@@ -1,0 +1,11 @@
+opencv_python
+pandas
+numpy
+streamlit
+av
+streamlit-autorefresh
+pickle
+time
+datetime
+scikit_learn
+win32.com

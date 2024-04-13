@@ -7,8 +7,6 @@ import os
 import csv
 import time
 from datetime import datetime
-from streamlit_webrtc import webrtc_streamer
-import  av
 from win32com.client import Dispatch
 
 def speak(str1):

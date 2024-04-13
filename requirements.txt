@@ -1,9 +1,9 @@
-opencv_python
+opencv-python
 pandas
 numpy
 streamlit
 av
-streamlit-autorefresh
+streamlit_autorefresh
 pickle
 time
 datetime

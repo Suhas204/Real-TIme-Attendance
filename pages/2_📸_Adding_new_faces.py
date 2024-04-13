@@ -21,7 +21,7 @@ if st.button("ON"):
     
 
     
-    video = cv2.VideoCapture(0)
+    video = cv2.VideoCapture(-1)
     i =0
     s = True
     while s:

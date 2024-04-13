@@ -3,7 +3,5 @@ pandas
 numpy
 streamlit
 av
-time
-datetime
 scikit-learn
 win32.com

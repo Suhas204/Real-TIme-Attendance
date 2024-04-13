@@ -7,5 +7,5 @@ streamlit-autorefresh
 pickle
 time
 datetime
-scikit_learn
+scikit-learn
 win32.com

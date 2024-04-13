@@ -7,11 +7,7 @@ import os
 import csv
 import time
 from datetime import datetime
-from win32com.client import Dispatch
 
-def speak(str1):
-     speak = Dispatch(("SAPI.SpVoice"))
-     speak.Speak(str1)
 
 st.set_page_config(
     page_title= "Computer-Vision Based Attendance",
@@ -62,7 +58,7 @@ def real_time_capture(_bool):
     cv2.imshow("frame", imgBackground)
     k = cv2.waitKey(1) 
     if k == ord('o'):
-         speak("Attendance Taken..")
+         
          time.sleep(1)
          
          if exist:

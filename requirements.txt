@@ -4,4 +4,4 @@ numpy
 streamlit
 av
 scikit-learn
-win32.com
+

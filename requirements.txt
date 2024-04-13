@@ -3,7 +3,6 @@ pandas
 numpy
 streamlit
 av
-streamlit-autorefresh
 pickle
 time
 datetime

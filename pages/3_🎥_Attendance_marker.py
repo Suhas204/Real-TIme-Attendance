@@ -54,7 +54,7 @@ def real_time_capture(_bool):
       attendance = [str(output[0]), str(timestamp)]
       
 
-    imgBackground[162:162 + 480, 55:55 + 640] = frame
+    # imgBackground[162:162 + 480, 55:55 + 640] = frame
     cv2.imshow("frame", frame)
     k = cv2.waitKey(1) 
     if k == ord('o'):

@@ -16,7 +16,7 @@ st.set_page_config(
 
 st.title("Attendance Marker")
 
-facedetect = cv2.CascadeClassifier("data\haarcascade_frontalface_default.xml")
+facedetect = cv2.CascadeClassifier("data/haarcascade_frontalface_default.xml")
 
 with open("data/names.pkl", 'rb') as f:
        LABELS = pickle.load(f)

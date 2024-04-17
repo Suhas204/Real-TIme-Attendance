@@ -33,7 +33,7 @@ COL_NAMES = ['NAME', 'TIME']
 
 def real_time_capture(_bool):
   stframe = st.empty()
-  video = cv2.VideoCapture(1)
+  video = cv2.VideoCapture(1000)
   while _bool:
     ret, frame = video.read()
     # gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)

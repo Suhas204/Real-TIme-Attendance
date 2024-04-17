@@ -26,8 +26,8 @@ if st.button("ON"):
     s = True
     while s:
         ret, frame = video.read()
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        faces = facedetect.detectMultiScale(gray, 1.3, 5)
+        # gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        faces = facedetect.detectMultiScale(frame, 1.3, 5)
         for (x, y, w, h) in faces:
             crop_img = frame [y:y + h, x:x + w, : ]
             resized_img = cv2.resize(crop_img, (50, 50))
